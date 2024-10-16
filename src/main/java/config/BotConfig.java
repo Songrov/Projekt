@@ -16,6 +16,7 @@ public class BotConfig {
 }
 
 /*
+a
 {
     "amount": 100.0,
     "base": "EUR",
