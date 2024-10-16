@@ -1,4 +1,4 @@
-package com.example.IT.Nico.TelBot.model;
+package IT.Nico.TelBot.model;
 
 import lombok.Data;
 

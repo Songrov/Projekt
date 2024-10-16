@@ -1,6 +1,6 @@
-package com.example.IT.Nico.TelBot.service;
+package IT.Nico.TelBot.service;
 
-import com.example.IT.Nico.TelBot.model.CurrencyModel;
+import IT.Nico.TelBot.model.CurrencyModel;
 import org.json.JSONObject;
 
 import java.io.IOException;

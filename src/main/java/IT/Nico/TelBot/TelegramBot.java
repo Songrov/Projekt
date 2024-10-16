@@ -1,7 +1,7 @@
-package com.example.IT.Nico.TelBot;
+package IT.Nico.TelBot;
 
-import com.example.IT.Nico.TelBot.model.CurrencyModel;
-import com.example.IT.Nico.TelBot.service.CurrencyService;
+import IT.Nico.TelBot.model.CurrencyModel;
+import IT.Nico.TelBot.service.CurrencyService;
 import config.BotConfig;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;

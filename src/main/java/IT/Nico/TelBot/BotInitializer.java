@@ -1,4 +1,4 @@
-package com.example.IT.Nico.TelBot;
+package IT.Nico.TelBot;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;

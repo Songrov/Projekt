@@ -1,4 +1,4 @@
-package com.example.IT.Nico.TelBot;
+package IT.Nico.TelBot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
