@@ -18,6 +18,7 @@ public class BotConfig {
 /*
 
 {
+
     "amount": 100.0,
     "base": "EUR",
     "date": "2024-19-10",
