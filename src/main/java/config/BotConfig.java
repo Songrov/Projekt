@@ -7,23 +7,12 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @Data
-@PropertySource("application.properties")
+//@PropertySource("application.properties")
 public class BotConfig {
-    @Value("${t.me/IT_Nico_bot}")
-    String botName;
-    @Value("${7815802972:AAHnNPIXRgSZbgxcRmJ4M4qAuIF4NRyEoiI}")
-    String token;
+    @Value("${telegram.bot.username}")
+    String botName = "IT_Nico_bot";
+    @Value("${telegram.bot.token}")
+    String token = "7815802972:AAHnNPIXRgSZbgxcRmJ4M4qAuIF4NRyEoiI";
 }
 
-/*
 
-{
-
-    "amount": 100.0,
-    "base": "EUR",
-    "date": "2024-19-10",
-    "rates": {
-        "USD": 109.57
-    }
-}
- */
