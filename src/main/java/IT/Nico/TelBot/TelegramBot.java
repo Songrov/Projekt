@@ -2,6 +2,7 @@ package IT.Nico.TelBot;
 
 import IT.Nico.TelBot.model.CurrencyModel;
 import IT.Nico.TelBot.service.CurrencyService;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
@@ -13,12 +14,12 @@ import java.io.IOException;
 import java.text.ParseException;
 
 @Service
-//@AllArgsConstructor
+@AllArgsConstructor
 public class TelegramBot extends TelegramLongPollingBot {
-    @Autowired
+    /*@Autowired
     TelegramBot(BotConfig botConfig){
         this.botConfig = new BotConfig();
-    }
+    }*/
     private  BotConfig botConfig;
 
     @Override
