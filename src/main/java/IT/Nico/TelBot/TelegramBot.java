@@ -2,10 +2,7 @@ package IT.Nico.TelBot;
 
 import IT.Nico.TelBot.model.CurrencyModel;
 import IT.Nico.TelBot.service.CurrencyService;
-import config.BotConfig;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
